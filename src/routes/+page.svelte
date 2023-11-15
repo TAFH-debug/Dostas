@@ -10,18 +10,9 @@
 <style>
 
 	@keyframes sparkle {
-  		0% {
-    		color: #0A2463;
-  		}
-		20% {
-			color: white;
-		}
-  		60% {
-    		color: chocolate;
-  		}
-
-  		80% {
-    		color: darkmagenta;
+  		100% {
+			color: #ffffff;
+    		transform: rotate(360deg);
   		}
 		100% {
 			color: #0A2463;
@@ -44,7 +35,9 @@
 		font-size: 100px;
 		font-weight: bold;
 		color: #0A2463;
+	}
 
-		/* animation: sparkle 0.4s linear 3.5s 1 forwards; */
+	.title:hover {
+		animation: sparkle 3s;
 	}
 </style>
