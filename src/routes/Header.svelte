@@ -1,8 +1,9 @@
 <nav class="header">
-    <a class="logo" href="/home">DOSTAS</a>
-    <a href="/home">About Us</a>
-    <a href="/about">Ref 2</a>
-    <a href="/policy">Ref 3</a>
+    <a class="logo" href="/">ProjectName</a>
+    <a href="/about">About Us</a>
+    <a href="/login">Login</a>
+    <a href="/register">Register</a>
+    <a href="/policy">Policy</a>
 </nav>
 
 <style>
@@ -26,8 +27,9 @@
         transition: background-position 1s ease-in;
         
     }
+
     .logo:hover {
-        background-position: 100% 0;
+        transform: none;
     }
 
     a {
@@ -45,7 +47,6 @@
     }
 
     a:hover {
-        /* transform: translateY(-20%); */
         transform: translate(10%);
         color: #fcc373;
     }

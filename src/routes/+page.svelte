@@ -1,15 +1,13 @@
 <script>
   import Header from "./Header.svelte";
-
 </script>
 
 <Header/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <div class="body">
-	<div class="bg"></div>
 	<div class="segment">
 		<h1>
-			What is <span class="app_name">Dostas</span>?
+			What is <span class="app_name">ProjectName</span>?
 		</h1>
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -40,17 +38,10 @@
 	</div>	
 </div>
 <style>
-	.bg {
-		z-index: -1;
-		height: 100%;
-		width: 100%;
-		position: fixed;
-		top: 0;
-		left: 0;
-		bottom: 100;
-		right: 0;
-		background-color: #020b0f;
-	}
+	.body {
+        background-color: #020b0f;
+    }
+	
 	.segment {
 		padding: 20px;
 		height: 50%;
