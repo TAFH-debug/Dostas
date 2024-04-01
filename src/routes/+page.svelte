@@ -41,7 +41,7 @@
 	.body {
         background-color: #020b0f;
     }
-	
+
 	.segment {
 		padding: 20px;
 		height: 50%;
@@ -88,9 +88,6 @@
 	#l {
 		text-align: left;
 	}
-
-
-
 	#reg {
 		align-items: center;
 		justify-content: center;
